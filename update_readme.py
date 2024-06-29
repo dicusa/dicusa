@@ -45,7 +45,7 @@ def update_readme(posts):
         file.writelines(readme_content)
 
 def main():
-    medium_username = '@jain.yash1909'
+    medium_username = os.getenv("MEDIUM_USERNAME")
     feed = fetch_medium_feed(medium_username)
     posts = []
 
