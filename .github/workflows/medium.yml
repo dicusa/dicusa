@@ -19,11 +19,9 @@ jobs:
         with:
           feed_list: "https://medium.com/feed/@jain.yash1909"
 
-
       - name: Commit Changes
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-        
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
