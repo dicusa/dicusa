@@ -10,4 +10,4 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 ![Neetcode Progress](https://progress-bar.dev/50?title=completed&width=200)
 
 ## 🔗 Connect with me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/yourlinkedinhandle)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/yash-jain-869144b1/)
