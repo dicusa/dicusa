@@ -1,22 +1,42 @@
 # Hi there 👋
 
 Welcome to my GitHub profile! Here you'll find information about my latest Medium posts, my Neetcode progress, and how to connect with me on LinkedIn.
-<div class="responsive-table__wrapper"/>"
 <table>
-  <tr>
-    <th align="center">For user accounts</th>
-    <th align="center">For organization accounts</th>
-  </tr>
-  <tr>
-    <td align="center">
-<img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.classic.svg" alt=""></img>
-</td>
-<td align="center">
-<img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.organization.svg" alt=""></img>
-</td>
-  </tr>
-</table>
-</div>
+    <thead>
+      <tr>
+        <th>Feature Name</th>
+        <th>Description</th>
+        <th>Version Implemented</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Feature 1</td>
+        <td>Detailed description of feature 1</td>
+        <td>vX.Y.Z</td>
+      </tr>
+      <tr>
+        <td>Feature 2</td>
+        <td>Detailed description of feature 2</td>
+        <td>vX.Y.Z</td>
+      </tr>
+      <tr>
+        <td>Feature 3</td>
+        <td>Detailed description of feature 3</td>
+        <td>vX.Y.Z</td>
+      </tr>
+      <tr>
+        <td>Feature 4</td>
+        <td>Detailed description of feature 4</td>
+        <td>vX.Y.Z</td>
+      </tr>
+      <tr>
+        <td>Feature 5</td>
+        <td>Detailed description of feature 5</td>
+        <td>vX.Y.Z</td>
+      </tr>
+    </tbody>
+  </table>
 ## 📖 Latest Medium Posts
 <!-- BLOG-POST-THUMBNAILS:START -->
 <table style="border-spacing: 0; border-collapse: separate;"><tr>
