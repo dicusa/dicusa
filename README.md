@@ -7,6 +7,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
         <th>Feature Name</th>
         <th>Description</th>
         <th>Version Implemented</th>
+        <th>Version Implemented</th>
       </tr>
     </thead>
     <tbody>
@@ -14,25 +15,30 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
         <td>Feature 1</td>
         <td>Detailed description of feature 1</td>
         <td>vX.Y.Z</td>
+        <td>vX.Y.Z</td>
       </tr>
       <tr>
         <td>Feature 2</td>
         <td>Detailed description of feature 2</td>
+        <td>vX.Y.Z</td>
         <td>vX.Y.Z</td>
       </tr>
       <tr>
         <td>Feature 3</td>
         <td>Detailed description of feature 3</td>
         <td>vX.Y.Z</td>
+        <td>vX.Y.Z</td>
       </tr>
       <tr>
         <td>Feature 4</td>
         <td>Detailed description of feature 4</td>
         <td>vX.Y.Z</td>
+        <td>vX.Y.Z</td>
       </tr>
       <tr>
         <td>Feature 5</td>
         <td>Detailed description of feature 5</td>
+        <td>vX.Y.Z</td>
         <td>vX.Y.Z</td>
       </tr>
     </tbody>
