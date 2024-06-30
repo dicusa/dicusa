@@ -2,18 +2,6 @@
 
 Welcome to my GitHub profile! Here you'll find information about my latest Medium posts, my Neetcode progress, and how to connect with me on LinkedIn.
 
-<table>
-    <thead>
-      <tr>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
-      </tr>
-    </thead>
-</table>
-
 ## 📖 Latest Medium Posts
 <!-- BLOG-POST-THUMBNAILS:START -->
 <table style="border-spacing: 0; border-collapse: separate;"><thead><tr>
