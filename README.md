@@ -5,10 +5,10 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 <table>
     <thead>
       <tr>
-        <th>Feature Name</th>
-        <th>Description</th>
-        <th>Version Implemented</th>
-        <th>Version Implemented</th>
+        <th><img src="path/to/image1.png" alt="Feature 1 Icon"> Feature Name</th>
+        <th><img src="path/to/image1.png" alt="Feature 1 Icon"> Feature Name</th>
+        <th><img src="path/to/image1.png" alt="Feature 1 Icon"> Feature Name</th>
+        <th><img src="path/to/image1.png" alt="Feature 1 Icon"> Feature Name</th>
       </tr>
     </thead>
 </table>
