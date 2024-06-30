@@ -35,6 +35,7 @@ def update_readme(posts):
                 f'    <a href="{post["link"]}">\n'
                 f'      <img src="{post["thumbnail"]}" alt="">\n'
                 f'    </a>\n'
+                f'"{post["title"]}" '
                 f'  </th>\n'
             )
 
