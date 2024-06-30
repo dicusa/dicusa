@@ -4,6 +4,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 
 ## 📖 Latest Medium Posts
 <!-- BLOG-POST-THUMBNAILS:START -->
+<div style="overflow-x: auto; white-space: nowrap;">
 <table><tr>
   <td style="padding: 10px;">
     <a href="https://medium.com/@jain.yash1909/understanding-single-sign-on-sso-ca7aae32bdcd?source=rss-572bb85fdb------2" style="text-decoration: none; color: inherit; display: inline-block; width: 120px; height: 160px; position: relative;">
@@ -31,10 +32,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
     </a>
   </td>
 </tr></table>
-<style>
-  a:hover { transform: scale(1.05); }
-  a:hover div { opacity: 1; }
-</style>
+</div>
 <!-- BLOG-POST-THUMBNAILS:END -->
 
 ## 📈 Neetcode Progress
