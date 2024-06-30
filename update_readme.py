@@ -70,7 +70,7 @@ def main():
             "link": entry.link,
             "thumbnail": extract_thumbnail(entry.link)
         }
-        if thumbnail:
+        if post.thumbnail:
             posts.append(post)
 
     update_readme(posts)
