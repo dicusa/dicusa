@@ -1,7 +1,7 @@
 # Hi there 👋
 
 Welcome to my GitHub profile! Here you'll find information about my latest Medium posts, my Neetcode progress, and how to connect with me on LinkedIn.
-
+<div class="responsive-table__wrapper"/>"
 <table>
   <tr>
     <th align="center">For user accounts</th>
@@ -16,6 +16,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 </td>
   </tr>
 </table>
+</div>
 ## 📖 Latest Medium Posts
 <!-- BLOG-POST-THUMBNAILS:START -->
 <table style="border-spacing: 0; border-collapse: separate;"><tr>
