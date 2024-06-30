@@ -2,7 +2,7 @@ name: Update README with Latest Medium Posts
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: '0 0 * 0 0'  # Runs once a week
   push:
     branches:
       - main
