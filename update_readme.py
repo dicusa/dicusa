@@ -27,6 +27,7 @@ def update_readme(posts):
         end_index = readme_content.index("<!-- BLOG-POST-THUMBNAILS:END -->\n")
 
         new_content = ["<!-- BLOG-POST-THUMBNAILS:START -->\n"]
+        new_content.append('<div style="overflow-x: auto; white-space: nowrap;">\n')
         new_content.append('<table><tr>\n')
 
         for post in posts:
@@ -39,10 +40,7 @@ def update_readme(posts):
             )
 
         new_content.append('</tr></table>\n')
-        new_content.append('<style>\n')
-        new_content.append('  a:hover { transform: scale(1.05); }\n')
-        new_content.append('  a:hover div { opacity: 1; }\n')
-        new_content.append('</style>\n')
+        new_content.append('</div>\n')
         # new_content.append('<script>\n')
         # new_content.append('  document.querySelectorAll(".thumbnails a").forEach(a => {\n')
         # new_content.append('    a.addEventListener("mouseover", () => {\n')
