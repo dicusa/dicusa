@@ -33,7 +33,7 @@ def update_readme(posts):
             new_content.append(
                 f'  <th>\n'
                 f'    <a href="{post["link"]}">\n'
-                f'      <img src="{post["thumbnail"]}" alt="" height="120" width="160">\n'
+                f'      <img src="{post["thumbnail"]}" alt="" style="height:160px; width:120px">\n'
                 f'    </a>\n'
                 f'"{post["title"][:30]}"... '
                 f'  </th>\n'
