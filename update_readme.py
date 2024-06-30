@@ -1,6 +1,5 @@
 import feedparser
 import requests
-import re
 from bs4 import BeautifulSoup
 import os
 
@@ -20,29 +19,44 @@ def extract_thumbnail(url):
 
 # Function to update the README.md file
 def update_readme(posts):
-    with open("README.md", "r") as file:
-        readme_content = file.readlines()
+    try:
+        with open("README.md", "r") as file:
+            readme_content = file.readlines()
 
-    start_index = readme_content.index("<!-- BLOG-POST-THUMBNAILS:START -->\n")
-    end_index = readme_content.index("<!-- BLOG-POST-THUMBNAILS:END -->\n")
+        start_index = readme_content.index("<!-- BLOG-POST-THUMBNAILS:START -->\n")
+        end_index = readme_content.index("<!-- BLOG-POST-THUMBNAILS:END -->\n")
 
-    new_content = ["<!-- BLOG-POST-THUMBNAILS:START -->\n"]
-    new_content.append('<div style="display: flex; overflow-x: scroll;">\n')
+        new_content = ["<!-- BLOG-POST-THUMBNAILS:START -->\n"]
+        new_content.append('<div class="thumbnails" style="display: flex; overflow-x: auto; padding: 10px;">\n')
 
-    for post in posts:
-        new_content.append(
-            f'  <a href="{post["link"]}">\n'
-            f'    <img src="{post["thumbnail"]}" alt="{post["title"]}" style="width: 150px; height: 150px; margin-right: 10px;">\n'
-            f'  </a>\n'
-        )
+        for post in posts:
+            new_content.append(
+                f'  <a href="{post["link"]}" style="text-decoration: none; color: inherit; margin: 10px; position: relative; flex: 0 0 auto; width: calc(20% - 20px); max-width: 150px;">\n'
+                f'    <img src="{post["thumbnail"]}" alt="{post["title"]}" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s;">\n'
+                f'    <div style="position: absolute; bottom: 0; background: rgba(0,0,0,0.7); color: #fff; width: 100%; text-align: center; padding: 5px; font-size: 14px; opacity: 0; transition: opacity 0.2s;">{post["title"]}</div>\n'
+                f'  </a>\n'
+            )
 
-    new_content.append('</div>\n')
-    new_content.append("<!-- BLOG-POST-THUMBNAILS:END -->\n")
+        new_content.append('</div>\n')
+        new_content.append('<style>\n')
+        new_content.append('  .thumbnails a:hover img { transform: scale(1.05); }\n')
+        new_content.append('  .thumbnails a:hover div { opacity: 1; }\n')
+        new_content.append('  @media (max-width: 768px) {\n')
+        new_content.append('    .thumbnails a { width: calc(33.33% - 20px); max-width: none; }\n')
+        new_content.append('  }\n')
+        new_content.append('  @media (max-width: 480px) {\n')
+        new_content.append('    .thumbnails a { width: calc(50% - 20px); max-width: none; }\n')
+        new_content.append('  }\n')
+        new_content.append('</style>\n')
+        new_content.append("<!-- BLOG-POST-THUMBNAILS:END -->\n")
 
-    readme_content[start_index:end_index + 1] = new_content
+        readme_content[start_index:end_index + 1] = new_content
 
-    with open("README.md", "w") as file:
-        file.writelines(readme_content)
+        with open("README.md", "w") as file:
+            file.writelines(readme_content)
+
+    except ValueError:
+        print("Placeholder comments not found in README.md. Please ensure they are correctly placed.")
 
 def main():
     medium_username = os.getenv("MEDIUM_USERNAME")
