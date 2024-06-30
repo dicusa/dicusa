@@ -2,6 +2,20 @@
 
 Welcome to my GitHub profile! Here you'll find information about my latest Medium posts, my Neetcode progress, and how to connect with me on LinkedIn.
 
+<table>
+  <tr>
+    <th align="center">For user accounts</th>
+    <th align="center">For organization accounts</th>
+  </tr>
+  <tr>
+    <td align="center">
+<img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.classic.svg" alt=""></img>
+</td>
+<td align="center">
+<img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.organization.svg" alt=""></img>
+</td>
+  </tr>
+
 ## 📖 Latest Medium Posts
 <!-- BLOG-POST-THUMBNAILS:START -->
 <table style="border-spacing: 0; border-collapse: separate;"><tr>
