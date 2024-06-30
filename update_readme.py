@@ -27,11 +27,11 @@ def update_readme(posts):
         end_index = readme_content.index("<!-- BLOG-POST-THUMBNAILS:END -->\n")
 
         new_content = ["<!-- BLOG-POST-THUMBNAILS:START -->\n"]
-        new_content.append('<table><tr>\n')
+        new_content.append('<table style="border-spacing: 0; border-collapse: separate;"><tr>\n')
 
         for post in posts:
             new_content.append(
-                f'  <td style="padding: 10px;">\n'
+                f'  <td style="padding: 10px; width:140px">\n'
                 f'    <a href="{post["link"]}">\n'
                 f'      <img src="{post["thumbnail"]}" alt="{post["title"]}" width: "120" height: "160">\n'
                 f'    </a>\n'
