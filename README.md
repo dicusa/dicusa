@@ -15,7 +15,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 <img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.organization.svg" alt=""></img>
 </td>
   </tr>
-
+</table>
 ## 📖 Latest Medium Posts
 <!-- BLOG-POST-THUMBNAILS:START -->
 <table style="border-spacing: 0; border-collapse: separate;"><tr>
