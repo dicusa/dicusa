@@ -32,23 +32,23 @@ def update_readme(posts):
         for post in posts:
             new_content.append(
                 f'  <a href="{post["link"]}" style="text-decoration: none; color: inherit; margin: 10px; position: relative; flex: 0 0 auto; width: 100px; height: 150px;">\n'
-                f'    <img src="{post["thumbnail"]}" alt="{post["title"]}" style="width: 100px; height: 150px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s;">\n'
+                f'    <img src="{post["thumbnail"]}" alt="{post["title"]}" style="width: 100px; height: 150px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; padding: 2%;">\n'
                 f'  </a>\n'
             )
 
         new_content.append('</div>\n')
-        new_content.append('<script>\n')
-        new_content.append('  document.querySelectorAll(".thumbnails a").forEach(a => {\n')
-        new_content.append('    a.addEventListener("mouseover", () => {\n')
-        new_content.append('      a.querySelector("img").style.transform = "scale(1.05)";\n')
-        new_content.append('      a.querySelector("div").style.opacity = "1";\n')
-        new_content.append('    });\n')
-        new_content.append('    a.addEventListener("mouseout", () => {\n')
-        new_content.append('      a.querySelector("img").style.transform = "scale(1)";\n')
-        new_content.append('      a.querySelector("div").style.opacity = "0";\n')
-        new_content.append('    });\n')
-        new_content.append('  });\n')
-        new_content.append('</script>\n')
+        # new_content.append('<script>\n')
+        # new_content.append('  document.querySelectorAll(".thumbnails a").forEach(a => {\n')
+        # new_content.append('    a.addEventListener("mouseover", () => {\n')
+        # new_content.append('      a.querySelector("img").style.transform = "scale(1.05)";\n')
+        # new_content.append('      a.querySelector("div").style.opacity = "1";\n')
+        # new_content.append('    });\n')
+        # new_content.append('    a.addEventListener("mouseout", () => {\n')
+        # new_content.append('      a.querySelector("img").style.transform = "scale(1)";\n')
+        # new_content.append('      a.querySelector("div").style.opacity = "0";\n')
+        # new_content.append('    });\n')
+        # new_content.append('  });\n')
+        # new_content.append('</script>\n')
         new_content.append("<!-- BLOG-POST-THUMBNAILS:END -->\n")
 
         readme_content[start_index:end_index + 1] = new_content
