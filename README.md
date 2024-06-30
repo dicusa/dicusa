@@ -4,7 +4,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 
 ## 📖 Latest Medium Posts
 <!-- BLOG-POST-THUMBNAILS:START -->
-<div style="display:flex; overflow: auto; white-space: nowrap; padding: 10px; gap: 10px;">
+<div style="white-space: nowrap; overflow: auto; padding: 10px; gap: 10px;">
   <a href="https://medium.com/@jain.yash1909/understanding-single-sign-on-sso-ca7aae32bdcd?source=rss-572bb85fdb------2" style="text-decoration: none; color: inherit; margin: 15px; position: relative; flex: 0 0 auto; width: 100px; height: 150px;">
     <img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Understanding Single Sign-On (SSO)" style="width: 100px; height: 150px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; padding: 2%;">
   </a>
