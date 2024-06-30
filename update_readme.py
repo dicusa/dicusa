@@ -27,7 +27,7 @@ def update_readme(posts):
         end_index = readme_content.index("<!-- BLOG-POST-THUMBNAILS:END -->\n")
 
         new_content = ["<!-- BLOG-POST-THUMBNAILS:START -->\n"]
-        new_content.append('<div style="display: flex; overflow-x: auto; padding: 10px; gap: 10px;">\n')
+        new_content.append('<div style="display: flex; overflow-x: auto; overflow-y: hidden; padding: 10px; gap: 10px;">\n')
 
         for post in posts:
             new_content.append(
