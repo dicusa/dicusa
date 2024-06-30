@@ -5,11 +5,12 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 <table>
     <thead>
       <tr>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"> Feature Name</th>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"> Feature Name</th>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"> Feature Name</th>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"> Feature Name</th>
-        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"> Feature Name</th>
+        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
+        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
+        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
+        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
+        <th><img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="Feature 1 Icon"></th>
+        
       </tr>
     </thead>
 </table>
