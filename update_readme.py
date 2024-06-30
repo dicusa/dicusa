@@ -31,9 +31,9 @@ def update_readme(posts):
 
         for post in posts:
             new_content.append(
-                f'  <a href="{post["link"]}" style="text-decoration: none; color: inherit; margin: 10px; position: relative; flex: 0 0 auto; width: calc(20% - 20px); max-width: 150px;">\n'
-                f'    <img src="{post["thumbnail"]}" alt="{post["title"]}" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s;">\n'
-                f'    <div style="position: absolute; bottom: 0; background: rgba(0,0,0,0.7); color: #fff; width: 100%; text-align: center; padding: 5px; font-size: 14px; opacity: 0; transition: opacity 0.2s;">{post["title"]}</div>\n'
+                f'  <a href="{post["link"]}" style="text-decoration: none; color: inherit; margin: 10px; position: relative; flex: 0 0 auto;">\n'
+                f'    <img src="{post["thumbnail"]}" alt="{post["title"]}" style="width: 100px; height: 150px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s;">\n'
+                f'    <div style="position: absolute; bottom: 0; background: rgba(0,0,0,0.7); color: #fff; width: 100%; text-align: center; padding: 5px; font-size: 12px; opacity: 0; transition: opacity 0.2s;">{post["title"]}</div>\n'
                 f'  </a>\n'
             )
 
@@ -41,12 +41,6 @@ def update_readme(posts):
         new_content.append('<style>\n')
         new_content.append('  .thumbnails a:hover img { transform: scale(1.05); }\n')
         new_content.append('  .thumbnails a:hover div { opacity: 1; }\n')
-        new_content.append('  @media (max-width: 768px) {\n')
-        new_content.append('    .thumbnails a { width: calc(33.33% - 20px); max-width: none; }\n')
-        new_content.append('  }\n')
-        new_content.append('  @media (max-width: 480px) {\n')
-        new_content.append('    .thumbnails a { width: calc(50% - 20px); max-width: none; }\n')
-        new_content.append('  }\n')
         new_content.append('</style>\n')
         new_content.append("<!-- BLOG-POST-THUMBNAILS:END -->\n")
 
