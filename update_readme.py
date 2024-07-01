@@ -39,10 +39,23 @@ def fetch_languages(username):
 
 # Funtion to create badges of language
 def create_language_logos(languages):
+    shields_base_url = "https://img.shields.io/badge"
+    colors = {
+        "Python": "3776AB",
+        "Java": "007396",
+        "JavaScript": "F7DF1E",
+        "Kotlin": "0095D5",
+        "Objective-C": "438EFF",
+        "Ruby": "CC342D",
+        "Starlark": "76D275",
+        "default": "blue"
+    }
+    
     logos = []
     for lang in languages:
-        logo = f'![{lang}](https://raw.githubusercontent.com/github/explore/main/topics/{lang.lower()}/{lang.lower()}.png)'
-        logos.append(logo)
+        color = colors.get(lang, colors["default"])
+        logo_url = f"{shields_base_url}/{lang}-{color}?style=flat&logo={lang.lower()}"
+        logos.append(f'![{lang}]({logo_url})')
     return ' '.join(logos)
 
 # Fetch languages and create badges
