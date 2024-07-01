@@ -81,7 +81,7 @@ def update_readme(posts):
         lang_start_index = readme_content.index("<!-- LANGUAGES-USED-START -->\n")
         lang_end_index = readme_content.index("<!-- LANGUAGES-USED-END -->\n")
         
-        new_content = "<!-- LANGUAGES-USED-START -->\n"
+        new_content = ["<!-- LANGUAGES-USED-START -->\n"]
         new_content.append(f'<p>{language_badges}</p>\n')
         new_content.append("<!-- LANGUAGES-USED-END -->\n")
         readme_content[lang_start_index:lang_end_index+1] = new_content
