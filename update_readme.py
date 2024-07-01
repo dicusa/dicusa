@@ -5,6 +5,11 @@ import os
 import requests
 import json
 
+# Funtion to check valid URL
+def is_url_valid(url):
+    response = requests.head(url)
+    return response.status_code == 200
+
 # Function to fetch the Medium feed
 def fetch_medium_feed(username):
     feed_url = f"https://medium.com/feed/@{username}"
@@ -40,11 +45,14 @@ def fetch_languages(username):
 # Funtion to create badges of language
 def create_language_logos(languages):
     github_explore_base_url = "https://raw.githubusercontent.com/github/explore/main/topics"
-    
+    default_logo_url = "https://via.placeholder.com/40?text=?"
+
     logos = []
     for lang in languages:
         logo_url = f"{github_explore_base_url}/{lang.lower()}/{lang.lower()}.png"
-        logos.append(f'<img src="{logo_url}" alt="{lang}" width="40" height="40" />')
+        if not is_url_valid(logo_url):
+            logo_url = default_logo_url
+        logos.append(f'<img src="{logo_url}" alt="{lang}" width="40" height="40" style="margin:10px; border-radius: 20% " />')
     return ' '.join(logos)
 
 # Fetch languages and create badges
