@@ -2,6 +2,8 @@ import feedparser
 import requests
 from bs4 import BeautifulSoup
 import os
+import requests
+import json
 
 # Function to fetch the Medium feed
 def fetch_medium_feed(username):
@@ -16,6 +18,37 @@ def extract_thumbnail(url):
     if og_image:
         return og_image['content']
     return None
+
+# Funtion to fetch languages used in my all repos
+def fetch_languages(username):
+    url = f"https://api.github.com/users/{username}/repos"
+    repos = requests.get(url).json()
+    languages = {}
+    
+    for repo in repos:
+        if not repo['fork']:
+            lang_url = repo['languages_url']
+            repo_langs = requests.get(lang_url).json()
+            for lang in repo_langs:
+                if lang in languages:
+                    languages[lang] += repo_langs[lang]
+                else:
+                    languages[lang] = repo_langs[lang]
+    
+    return languages
+
+# Funtion to create badges of language
+def create_language_badges(languages):
+    badges = []
+    for lang in languages:
+        badge = f'![{lang}](https://img.shields.io/badge/{lang}-{languages[lang]}-brightgreen)'
+        badges.append(badge)
+    return ' '.join(badges)
+
+# Fetch languages and create badges
+username = "dicusa"
+languages = fetch_languages(username)
+language_badges = create_language_badges(languages)
 
 # Function to update the README.md file
 def update_readme(posts):
@@ -41,21 +74,17 @@ def update_readme(posts):
 
         new_content.append('</tr></thead></table>\n')
         
-        # new_content.append('<script>\n')
-        # new_content.append('  document.querySelectorAll(".thumbnails a").forEach(a => {\n')
-        # new_content.append('    a.addEventListener("mouseover", () => {\n')
-        # new_content.append('      a.querySelector("img").style.transform = "scale(1.05)";\n')
-        # new_content.append('      a.querySelector("div").style.opacity = "1";\n')
-        # new_content.append('    });\n')
-        # new_content.append('    a.addEventListener("mouseout", () => {\n')
-        # new_content.append('      a.querySelector("img").style.transform = "scale(1)";\n')
-        # new_content.append('      a.querySelector("div").style.opacity = "0";\n')
-        # new_content.append('    });\n')
-        # new_content.append('  });\n')
-        # new_content.append('</script>\n')
         new_content.append("<!-- BLOG-POST-THUMBNAILS:END -->\n")
 
         readme_content[start_index:end_index + 1] = new_content
+
+        lang_start_index = readme_content.index("<!-- LANGUAGES-USED-START -->\n")
+        lang_end_index = readme_content.index("<!-- LANGUAGES-USED-END -->\n")
+        
+        new_content = "<!-- LANGUAGES-USED-START -->\n"
+        new_content.append(f'<p>{language_badges}</p>\n')
+        new_content.append("<!-- LANGUAGES-USED-END -->\n")
+        readme_content[lang_start_index:lang_end_index+1] = new_content
 
         with open("README.md", "w") as file:
             file.writelines(readme_content)
