@@ -39,6 +39,10 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 ## 📊 GitHub Contributions
 ![GitHub Contributions](https://ghchart.rshah.org/dicusa)
 
+## 💻 Languages I've Used
+<!-- LANGUAGES-USED-START -->
+<!-- LANGUAGES-USED-END -->
+
 ## 🔗 Connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/yash-jain-869144b1/)
 [![Email](https://img.shields.io/badge/Email-Connect-orange)](mailto:jain.yash1909@gmail.com)
