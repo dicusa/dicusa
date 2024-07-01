@@ -41,7 +41,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 
 ## 💻 Languages I've Used
 <!-- LANGUAGES-USED-START -->
-<p>![Python](https://img.shields.io/badge/Python-14710-brightgreen) ![Java](https://img.shields.io/badge/Java-74845-brightgreen) ![JavaScript](https://img.shields.io/badge/JavaScript-130842-brightgreen) ![Kotlin](https://img.shields.io/badge/Kotlin-80191-brightgreen) ![Objective-C](https://img.shields.io/badge/Objective-C-4169-brightgreen) ![Ruby](https://img.shields.io/badge/Ruby-2779-brightgreen) ![Starlark](https://img.shields.io/badge/Starlark-1914-brightgreen)</p>
+<p>![Python](https://raw.githubusercontent.com/github/explore/main/topics/python/python.png) ![Java](https://raw.githubusercontent.com/github/explore/main/topics/java/java.png) ![JavaScript](https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png) ![Kotlin](https://raw.githubusercontent.com/github/explore/main/topics/kotlin/kotlin.png) ![Objective-C](https://raw.githubusercontent.com/github/explore/main/topics/objective-c/objective-c.png) ![Ruby](https://raw.githubusercontent.com/github/explore/main/topics/ruby/ruby.png) ![Starlark](https://raw.githubusercontent.com/github/explore/main/topics/starlark/starlark.png)</p>
 <!-- LANGUAGES-USED-END -->
 
 ## 🔗 Connect with me
