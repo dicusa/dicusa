@@ -39,10 +39,12 @@ def fetch_languages(username):
 
 # Funtion to create badges of language
 def create_language_logos(languages):
+    github_explore_base_url = "https://raw.githubusercontent.com/github/explore/main/topics"
+    
     logos = []
     for lang in languages:
-        logo = f'![{lang}](https://raw.githubusercontent.com/github/explore/main/topics/{lang.lower()}/{lang.lower()}.png)'
-        logos.append(logo)
+        logo_url = f"{github_explore_base_url}/{lang.lower()}/{lang.lower()}.png"
+        logos.append(f'<img src="{logo_url}" alt="{lang}" width="40" height="40" />')
     return ' '.join(logos)
 
 # Fetch languages and create badges
