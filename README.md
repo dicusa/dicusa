@@ -41,13 +41,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 
 ## 💻 Languages I've Used
 <!-- LANGUAGES-USED-START -->
-<p>![Python](https://img.shields.io/badge/Python-14710-brightgreen) 
-  ![Java](https://img.shields.io/badge/Java-74845-brightgreen) 
-  ![JavaScript](https://img.shields.io/badge/JavaScript-130842-brightgreen) 
-  ![Kotlin](https://img.shields.io/badge/Kotlin-80191-brightgreen) 
-  ![Objective-C](https://img.shields.io/badge/Objective-C-4169-brightgreen) 
-  ![Ruby](https://img.shields.io/badge/Ruby-2779-brightgreen) 
-  ![Starlark](https://img.shields.io/badge/Starlark-1914-brightgreen)</p>
+<p>![Python](https://img.shields.io/badge/Python-14710-brightgreen) ![Java](https://img.shields.io/badge/Java-74845-brightgreen) ![JavaScript](https://img.shields.io/badge/JavaScript-130842-brightgreen) ![Kotlin](https://img.shields.io/badge/Kotlin-80191-brightgreen) ![Objective-C](https://img.shields.io/badge/Objective-C-4169-brightgreen) ![Ruby](https://img.shields.io/badge/Ruby-2779-brightgreen) ![Starlark](https://img.shields.io/badge/Starlark-1914-brightgreen)</p>
 <!-- LANGUAGES-USED-END -->
 
 ## 🔗 Connect with me
