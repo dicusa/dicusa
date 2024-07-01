@@ -38,17 +38,17 @@ def fetch_languages(username):
     return languages
 
 # Funtion to create badges of language
-def create_language_badges(languages):
-    badges = []
+def create_language_logos(languages):
+    logos = []
     for lang in languages:
-        badge = f'![{lang}](https://img.shields.io/badge/{lang}-{languages[lang]}-brightgreen)'
-        badges.append(badge)
-    return ' '.join(badges)
+        logo = f'![{lang}](https://raw.githubusercontent.com/github/explore/main/topics/{lang.lower()}/{lang.lower()}.png)'
+        logos.append(logo)
+    return ' '.join(logos)
 
 # Fetch languages and create badges
 username = "dicusa"
 languages = fetch_languages(username)
-language_badges = create_language_badges(languages)
+language_badges = create_language_logos(languages)
 
 # Function to update the README.md file
 def update_readme(posts):
