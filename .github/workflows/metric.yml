@@ -1,7 +1,7 @@
-name: Metrics
+name: Generate Metrics
 
 on:
-  schedule: 
+  schedule:
     - cron: '0 * * * *'
   push:
     branches:
@@ -9,16 +9,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  github-metrics:
+  generate-metrics:
     runs-on: ubuntu-latest
     steps:
-      name: Full-year calendar
+      - uses: actions/checkout@v2
       - uses: lowlighter/metrics@latest
-      with:
-        filename: metrics.plugin.isocalendar.fullyear.svg
-        token: ${{ secrets.GITHUB_TOKEN }}
-        base: ""
-        plugin_isocalendar: yes
-        plugin_isocalendar_duration: full-year
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
