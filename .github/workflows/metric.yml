@@ -23,12 +23,12 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      - name: Generate Icons Metrics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.topics.icons.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons
+      # - name: Generate Icons Metrics
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics.plugin.topics.icons.svg
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     base: ""
+      #     plugin_topics: yes
+      #     plugin_topics_limit: 0
+      #     plugin_topics_mode: icons
