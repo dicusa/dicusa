@@ -12,11 +12,24 @@ jobs:
   generate-metrics:
     runs-on: ubuntu-latest
     steps:
+      steps:
       - uses: actions/checkout@v2
-      - uses: lowlighter/metrics@latest
+
+      - name: Generate Isocalendar Metrics
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+      - name: Generate Icons Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.icons.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
