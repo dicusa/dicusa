@@ -1,0 +1,32 @@
+name: Generate Dummy Commits
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-dummy-commits:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Create Dummy Commits
+        run: |
+          for i in $(seq 1 $((RANDOM % 21))); do
+            echo "Dummy commit $i" > dummy_commit.txt
+            git add dummy_commit.txt
+            git commit -m "Dummy commit $i"
+          done
+
+      - name: Push Changes
+        run: |
+          git push origin HEAD:main
+          git reset --hard HEAD~$((RANDOM % 21))
