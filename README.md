@@ -13,7 +13,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 
 ## 📊 GitHub Contributions
 ![GitHub Contributions](https://ghchart.rshah.org/dicusa)
-![Metrics](https://github.com/dicusa/dicusa/actions/workflows/metrics.yml/badge.svg)
+![Metrics](https://github.com/dicusa/dicusa/blob/main/metrics.plugin.isocalendar.fullyear.svg)
 
 ## 💻 Languages I've Used
 <!-- LANGUAGES-USED-START -->
