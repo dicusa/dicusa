@@ -52,7 +52,7 @@ def create_language_logos(languages):
         logo_url = f"{github_explore_base_url}/{lang.lower()}/{lang.lower()}.png"
         if not is_url_valid(logo_url):
             logo_url = default_logo_url
-        logos.append(f'<img src="{logo_url}" alt="{lang}" width="40" height="40" style="margin:10px; border-radius: 20% " />')
+        logos.append(f'<img src="{logo_url}" alt="{lang}" width="40" height="40" style="margin:20px; border-radius: 40% " />')
     return ' '.join(logos)
 
 # Fetch languages and create badges
