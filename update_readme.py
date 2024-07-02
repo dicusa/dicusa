@@ -74,7 +74,7 @@ def update_readme(posts):
 
         for post in posts:
             new_content.append(
-                f'  <th>\n'
+                f'  <th style="justify-content: space-between;">\n'
                 f'    <a href="{post["link"]}" style="height:160px; width:130px">\n'
                 f'      <img src="{post["thumbnail"]}" alt="" >\n'
                 f'    </a>\n'
