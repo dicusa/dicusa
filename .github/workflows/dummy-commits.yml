@@ -17,7 +17,9 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
+      - name: Pull Changes
+        run: |
+          git pull
       - name: Create Dummy Commits
         run: |
           for i in $(seq 1 $((RANDOM % 21))); do
