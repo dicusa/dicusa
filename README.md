@@ -23,7 +23,7 @@ Welcome to my GitHub profile! Here you'll find information about my latest Mediu
 
 ## 📊 GitHub Contributions
 ![GitHub Contributions](https://ghchart.rshah.org/dicusa)
-![GitHub Contributions](https://metrics.lecoq.io/dicusa?template=classic&isocalendar=1&isocalendar.duration=full-year&config.timezone=Etc%2FUTC)
+![Metrics](https://github.com/dicusa/dicusa/actions/workflows/metrics.yml/badge.svg)
 
 ## 💻 Languages I've Used
 <!-- LANGUAGES-USED-START -->
