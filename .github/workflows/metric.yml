@@ -22,7 +22,7 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-      -name: Default metrics
+      - name: Default metrics
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.base.svg
