@@ -1,6 +1,6 @@
 # Hi there 👋
 
-<img alt="" width="100%" src="https://github.com/lowlighter/metrics/blob/examples/metrics.classic.svg" alt=""></img>
+<img alt="" width="60%" src="https://github.com/dicusa/dicusa/blob/main/metrics.base.svg" alt=""></img>
 
 ## 📖 Latest Medium Posts
 <!-- BLOG-POST-THUMBNAILS:START -->
