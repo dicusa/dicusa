@@ -22,7 +22,12 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
+      -name: Default metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.base.svg
+          token: ${{ secrets.GITHUB_TOKEN  }}
+          base: header, activity, community, repositories, metadata
       # - name: Generate Icons Metrics
       #   uses: lowlighter/metrics@latest
       #   with:
