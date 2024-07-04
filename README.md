@@ -1,6 +1,4 @@
-# Hi there 👋
-
-<img alt="" width="60%" src="https://github.com/dicusa/dicusa/blob/main/metrics.base.svg" alt=""></img>
+<img alt="" width="100%" height="60%" src="https://github.com/dicusa/dicusa/blob/main/metrics.base.svg" alt=""></img>
 
 ## 📖 Latest Medium Posts
 <!-- BLOG-POST-THUMBNAILS:START -->
