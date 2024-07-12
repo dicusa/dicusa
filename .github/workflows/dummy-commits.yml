@@ -15,8 +15,8 @@ jobs:
 
       - name: Set up Git
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'dicsua'
+          git config --global user.email 'jain.yash1909@gmail.com'
       - name: Pull Changes
         run: |
           git pull
@@ -27,7 +27,9 @@ jobs:
             git add dummy_commit.txt
             git commit -m "Dummy commit $i"
           done
-
+        env:
+          GIT_COMMITTER_NAME: dicusa
+          GIT_COMMITTER_EMAIL: jain.yash1909@gmail.com
       - name: Push Changes
         run: |
           git push origin HEAD:main
