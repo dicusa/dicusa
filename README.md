@@ -4,6 +4,11 @@
 <!-- BLOG-POST-THUMBNAILS:START -->
 <table style="border-spacing: 0; border-collapse: separate;"><thead><tr>
   <th style="justify-content: space-between;">
+    <a href="https://medium.com/@jain.yash1909/7-must-know-strategies-to-scale-your-database-bf26c9077333?source=rss-572bb85fdb------2" style="height:160px; width:130px">
+      <img src="https://miro.medium.com/v2/resize:fit:1189/1*uhrFqZ3v7CBUt0Az7cncaQ.jpeg" alt="" >
+    </a>
+<span>"7 Must-Know Strategies to Scal"...   </span></th>
+  <th style="justify-content: space-between;">
     <a href="https://medium.com/@jain.yash1909/understanding-single-sign-on-sso-ca7aae32bdcd?source=rss-572bb85fdb------2" style="height:160px; width:130px">
       <img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="" >
     </a>
@@ -23,11 +28,6 @@
       <img src="https://miro.medium.com/v2/resize:fit:998/1*99HRHh-fYdlnLuTtHjaIQg.png" alt="" >
     </a>
 <span>"Understanding Cache Systems: W"...   </span></th>
-  <th style="justify-content: space-between;">
-    <a href="https://medium.com/@jain.yash1909/monolithic-vs-microservices-architecture-understanding-the-key-differences-7ddf328565d0?source=rss-572bb85fdb------2" style="height:160px; width:130px">
-      <img src="https://miro.medium.com/v2/resize:fit:1030/1*qCD-W51kRsI-PRqMtZsxmA.jpeg" alt="" >
-    </a>
-<span>"Monolithic vs. Microservices A"...   </span></th>
 </tr></thead></table>
 <!-- BLOG-POST-THUMBNAILS:END -->
 
