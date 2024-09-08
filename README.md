@@ -23,6 +23,11 @@
       <img src="https://miro.medium.com/v2/resize:fit:1200/1*Y1Kc3-p3zOj2EgLRrdAE_w.png" alt="" >
     </a>
 <span>"Top 5 Common Ways to Improve A"...   </span></th>
+  <th style="justify-content: space-between;">
+    <a href="https://medium.com/@jain.yash1909/what-is-indexing-in-a-database-and-why-is-it-important-7d8b686c9efa?source=rss-572bb85fdb------2" style="height:160px; width:130px">
+      <img src="https://miro.medium.com/v2/resize:fit:1087/1*1y9MLt5YWL4dnytIRuMObA.png" alt="" >
+    </a>
+<span>"What is Indexing in a Database"...   </span></th>
 </tr></thead></table>
 <!-- BLOG-POST-THUMBNAILS:END -->
 
