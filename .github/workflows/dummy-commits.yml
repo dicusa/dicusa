@@ -15,7 +15,7 @@ jobs:
 
       - name: Set up Git
         run: |
-          git config --global user.name 'dicsua'
+          git config --global user.name 'dicusa'
           git config --global user.email 'jain.yash1909@gmail.com'
       - name: Pull Changes
         run: |
