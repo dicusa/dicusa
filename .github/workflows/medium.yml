@@ -32,9 +32,11 @@ jobs:
       - name: Commit Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_COMMITTER_NAME: dicusa
+          GIT_COMMITTER_EMAIL: jain.yash1909@gmail.com
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'dicusa'
+          git config --global user.email 'jain.yash1909@gmail.com'
           git pull
           git add -A
           git commit -m 'Updated README with latest Medium posts' || echo "No changes to commit"
