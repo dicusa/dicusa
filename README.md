@@ -31,8 +31,8 @@
 </tr></thead></table>
 <!-- BLOG-POST-THUMBNAILS:END -->
 
-## 📈 Neetcode Progress
-![Neetcode Progress](https://progress-bar.dev/56?title=completed&width=200)
+## 📈 Leetcode Progress
+![LeetCode Stats](https://leetcard.jacoblin.cool/dicusa?theme=transparent&font=Mallanna&ext=heatmap)
 
 ## 📊 GitHub Contributions
 ![GitHub Contributions](https://ghchart.rshah.org/dicusa)
