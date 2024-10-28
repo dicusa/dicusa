@@ -8,29 +8,35 @@ on:
 jobs:
   generate-dummy-commits:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+        with:
+          # Add this to ensure we have the full history
+          fetch-depth: 0
 
       - name: Set up Git
         run: |
           git config --global user.name 'dicusa'
           git config --global user.email 'jain.yash1909@gmail.com'
+
       - name: Pull Changes
         run: |
           git pull
+
       - name: Create Dummy Commits
         run: |
           for i in $(seq 1 $((RANDOM % 21))); do
-            echo "Dummy commit $i" > dummy_commit.txt
+            # Add timestamp to make each commit unique
+            echo "Dummy commit $i - $(date)" > dummy_commit.txt
             git add dummy_commit.txt
-            git commit -m "Dummy commit $i"
+            git commit -m "Dummy commit $i - $(date)"
+            sleep 1  # Add small delay between commits
           done
         env:
           GIT_COMMITTER_NAME: dicusa
           GIT_COMMITTER_EMAIL: jain.yash1909@gmail.com
+
       - name: Push Changes
         run: |
           git push origin HEAD:main
-          git reset --hard HEAD~$((RANDOM % 21))
