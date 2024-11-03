@@ -4,6 +4,11 @@
 <!-- BLOG-POST-THUMBNAILS:START -->
 <table style="border-spacing: 0; border-collapse: separate;"><thead><tr>
   <th style="justify-content: space-between;">
+    <a href="https://medium.com/@jain.yash1909/concurrency-vs-parallelism-understanding-the-key-differences-202a8cd99417?source=rss-572bb85fdb------2" style="height:160px; width:130px">
+      <img src="https://miro.medium.com/v2/resize:fit:1080/1*dHfK9ZbBlZ_TONQPw8U7oA.png" alt="" >
+    </a>
+<span>"Concurrency vs Parallelism: Un"...   </span></th>
+  <th style="justify-content: space-between;">
     <a href="https://medium.com/@jain.yash1909/session-based-authentication-vs-jwt-based-authentication-whats-the-difference-5d9e24d7e916?source=rss-572bb85fdb------2" style="height:160px; width:130px">
       <img src="https://miro.medium.com/v2/resize:fit:985/1*C9QNPtNlSmSoqUZUZWlqxw.png" alt="" >
     </a>
@@ -23,11 +28,6 @@
       <img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="" >
     </a>
 <span>"Understanding Single Sign-On ("...   </span></th>
-  <th style="justify-content: space-between;">
-    <a href="https://medium.com/@jain.yash1909/top-5-common-ways-to-improve-api-performance-c259860ba5d9?source=rss-572bb85fdb------2" style="height:160px; width:130px">
-      <img src="https://miro.medium.com/v2/resize:fit:1200/1*Y1Kc3-p3zOj2EgLRrdAE_w.png" alt="" >
-    </a>
-<span>"Top 5 Common Ways to Improve A"...   </span></th>
 </tr></thead></table>
 <!-- BLOG-POST-THUMBNAILS:END -->
 
