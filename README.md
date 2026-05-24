@@ -4,6 +4,21 @@
 <!-- BLOG-POST-THUMBNAILS:START -->
 <table style="border-spacing: 0; border-collapse: separate;"><thead><tr>
   <th style="justify-content: space-between;">
+    <a href="https://medium.com/@jain.yash1909/the-silent-revolution-how-ai-is-reshaping-the-creative-world-and-why-you-should-care-3add5a9a5373?source=rss-572bb85fdb------2" style="height:160px; width:130px">
+      <img src="https://miro.medium.com/v2/resize:fit:1024/1*jMP-P7GTW-JWoFZWW_nLUA@2x.jpeg" alt="" >
+    </a>
+<span>"THE SILENT REVOLUTION: HOW AI "...   </span></th>
+  <th style="justify-content: space-between;">
+    <a href="https://medium.com/@jain.yash1909/the-code-whisperers-19a644a81f02?source=rss-572bb85fdb------2" style="height:160px; width:130px">
+      <img src="https://miro.medium.com/v2/resize:fit:1200/1*JA7wwaIz3pZIj7Cz2ikeUA@2x.jpeg" alt="" >
+    </a>
+<span>"The Code Whisperers"...   </span></th>
+  <th style="justify-content: space-between;">
+    <a href="https://medium.com/@jain.yash1909/the-unseen-architects-how-generative-ai-is-reshaping-reality-and-what-comes-next-f18cc98fbe91?source=rss-572bb85fdb------2" style="height:160px; width:130px">
+      <img src="https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632" alt="" >
+    </a>
+<span>"The Unseen Architects: How Gen"...   </span></th>
+  <th style="justify-content: space-between;">
     <a href="https://medium.com/@jain.yash1909/concurrency-vs-parallelism-understanding-the-key-differences-202a8cd99417?source=rss-572bb85fdb------2" style="height:160px; width:130px">
       <img src="https://miro.medium.com/v2/resize:fit:1080/1*dHfK9ZbBlZ_TONQPw8U7oA.png" alt="" >
     </a>
@@ -13,21 +28,6 @@
       <img src="https://miro.medium.com/v2/resize:fit:985/1*C9QNPtNlSmSoqUZUZWlqxw.png" alt="" >
     </a>
 <span>"Session-Based Authentication v"...   </span></th>
-  <th style="justify-content: space-between;">
-    <a href="https://medium.com/@jain.yash1909/9-essential-components-of-a-production-microservice-application-761ff972dd19?source=rss-572bb85fdb------2" style="height:160px; width:130px">
-      <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*mZNl7dyLzqEX97Zc.gif" alt="" >
-    </a>
-<span>"9 Essential Components of a Pr"...   </span></th>
-  <th style="justify-content: space-between;">
-    <a href="https://medium.com/@jain.yash1909/7-must-know-strategies-to-scale-your-database-bf26c9077333?source=rss-572bb85fdb------2" style="height:160px; width:130px">
-      <img src="https://miro.medium.com/v2/resize:fit:1189/1*uhrFqZ3v7CBUt0Az7cncaQ.jpeg" alt="" >
-    </a>
-<span>"7 Must-Know Strategies to Scal"...   </span></th>
-  <th style="justify-content: space-between;">
-    <a href="https://medium.com/@jain.yash1909/understanding-single-sign-on-sso-ca7aae32bdcd?source=rss-572bb85fdb------2" style="height:160px; width:130px">
-      <img src="https://miro.medium.com/v2/resize:fit:712/1*yiw8smZDlNLmGgDyzWXdQg.png" alt="" >
-    </a>
-<span>"Understanding Single Sign-On ("...   </span></th>
 </tr></thead></table>
 <!-- BLOG-POST-THUMBNAILS:END -->
 
